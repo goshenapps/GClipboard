@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sheets"
+    android:background="@color/colorSheet"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+<RelativeLayout
+
+    android:id="@+id/relly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+
+
+
+
+
+<RelativeLayout
+    android:id="@+id/waves"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    >
+    <com.goshenapps.clipboard.Siri.SiriWaveView
+        android:id="@+id/siriWaveView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:waveAmount="5"
+        app:waveColor="@android:color/white"
+        app:waveFrequency="4.0"
+        app:waveHeight="50dp"
+        app:waveInitialPhaseOffset="0"
+        app:wavePhaseShift="1.00"
+        app:waveVerticalPosition="8" />
+</RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:indicatorName="LineScalePulseOutIndicator"
+            app:indicatorColor="#fff"
+            />
+
+
+    </RelativeLayout>
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#263238"
+    android:padding="15dp"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/oke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:id="@+id/notifitext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:maxLines="2"
+            android:maxLength="140"
+            android:ellipsize="end"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/arin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/call_action"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/telephone"
+            android:layout_weight="1"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/copy_action"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/copy"
+            android:layout_weight="1"
+            />
+
+
+        <ImageView
+            android:id="@+id/mail_action"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/envelope"
+            android:layout_weight="1"
+            android:visibility="gone"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/link_action"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/linxx"
+            android:layout_weight="1"
+            android:visibility="gone"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/baser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/share_menu"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/share_menu"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/qr_menu"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/barcode_menu"
+            android:layout_weight="1"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/find_menu"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/search_menu"
+            android:layout_weight="1"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/talk_menu"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/volume"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/shot_menu"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/screenshot_menu"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

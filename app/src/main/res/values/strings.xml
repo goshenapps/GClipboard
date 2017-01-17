@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Clipboard</string>
+
+
+
+
+    <string name="clip_intro">Welcome to Clipboard for Google, the best clipboard app for Android. Tap this clip to view the available clip actions</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="ticker">Slide down to view actions</string>
+
+
+    <string name="notice_playback_title">Playing Sound</string>
+    <string name="notice_playback_sub">click to stop playing</string>
+
+
+    <string name="notice_qr_title">QR code generated</string>
+    <string name="notice_qr_sub">tap to view and share qr code</string>
+
+
+    <string name="intro1Title">Cloud Syncing</string>
+    <string name="intro2Title">Access Anywhere</string>
+    <string name="intro3Title">Clipboard Actions</string>
+
+
+    <string name="intro1Text">Anything you copy to your clipboard automatically gets saved to the cloud</string>
+    <string name="intro2Text">Clipboard for Google lets you sync your clipboard across several devices. Hence you can access your clipboard history on any android device</string>
+    <string name="intro3Text">Clipboard for Google creates multiple actions based on your copied text</string>
+
+
+    <string name="login_err">404 Error</string>
+    <string name="login_wish">You need to login to use this app</string>
+    <string name="login_button">Retry</string>
+
+
+    <string name="menu_mail">Email Developer</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_rate">Rate App</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_share">Share App</string>
+
+
+    <string name="button_dialog_copy">Copy</string>
+    <string name="button_dialog_delete">Delete </string>
+
+    <string name="toolbar_screenshot">Screenshot</string>
+    <string name="snackText">Screenshot saved and added to device gallery</string>
+
+    <string name="snackTextQR">QR code saved and added to device gallery</string>
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shot_taker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSheet"
+    tools:context="com.goshenapps.clipboard.ActionPack.ShotTaker">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+
+        >
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardoso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="2dp"
+        app:cardBackgroundColor="#fff"
+        app:cardElevation="4dp"
+        >
+
+
+        <TextView
+            android:id="@+id/textviewer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#333"
+            android:text="@string/intro1Text"
+            android:padding="12dp"
+
+            />
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorSheet"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_format_size"
+                    android:layout_weight="1"
+                    android:tint="#ffffff"
+
+                    />
+
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:thumb="@drawable/ic_diamond"
+                android:thumbTint="#ffffff"
+                android:progressTint="#ffffff"
+                android:max="50"/>
+
+                </LinearLayout>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#44ffffff"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/text"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_format_color_text"
+                    android:layout_weight="1"
+                    android:tint="#ffffff"
+                    android:onClick="textPaint"
+
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/bgcolor"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_format_color_fill"
+                    android:layout_weight="1"
+                    android:tint="#ffffff"
+                    android:onClick="cardPaint"
+                    />
+
+                <ImageView
+                    android:id="@+id/save"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_save"
+                    android:layout_weight="1"
+                    android:tint="#ffffff"
+                    android:onClick="Snap"
+                    />
+
+
+
+
+                <ImageView
+                    android:id="@+id/snap"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_share_arrow"
+                    android:layout_weight="1"
+                    android:onClick="Shares"
+                    android:tint="#ffffff"
+
+                    />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <VideoView
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro1Title"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+
+        <TextView
+            android:id="@+id/worded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro1Text"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+</RelativeLayout>

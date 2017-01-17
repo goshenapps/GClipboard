@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "208108479222",
+    "firebase_url": "https://clipboard-1e13b.firebaseio.com",
+    "project_id": "clipboard-1e13b",
+    "storage_bucket": "clipboard-1e13b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208108479222:android:13ebe2c43db3f781",
+        "android_client_info": {
+          "package_name": "com.goshenapps.clipboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208108479222-665uhqgau63lucso767o35pb31v8nen4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goshenapps.clipboard",
+            "certificate_hash": "BBEE28343675CD48FC7F8E7669FCE7AE83A97AA4"
+          }
+        },
+        {
+          "client_id": "208108479222-1haa969b8jjbvlkhme9kstsnr9iq7lo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALXxu5qKrPAWQwMA87Exrt4z77rkZsfXI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208108479222-1haa969b8jjbvlkhme9kstsnr9iq7lo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
